@@ -1,0 +1,71 @@
+.mat-card  {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  width: 40%;
+  padding: 0px;
+}
+
+.mat-card-title {
+  font: normal normal normal 16px/16px Open Sans;
+  text-align: center;
+  margin-top: 0px;
+  background: #f5f5f0;
+  padding: 12px;
+  background-clip: padding-box;
+}
+
+.mat-card-content {
+  padding: 24px;
+}
+
+label{
+  font-size: 11px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.label1 {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.mat-slider {
+  display: block;
+}
+
+.mat-slider-horizontal .mat-slider-wrapper {
+  top: 16px;
+  left: 0px;
+}
+
+.mat-select {
+  font-size: 18px;
+  margin: 6px 0px;
+}
+
+.mat-slide-toggle {
+  font-size: 11px;
+  margin: 10px 0px;
+}
+
+.example-full-width {
+  width: 100%;
+  font-size: 18px;
+}
+
+.calcImage {
+  position: absolute;  
+  top: 48%;
+  left: 65%;
+  width: 200px;
+  height: 500px;
+  opacity: 1;
+  }
+.calcImage img {
+  width: 150px;
+  height: 300px;
+}
+
+ 

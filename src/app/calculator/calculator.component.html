@@ -1,0 +1,32 @@
+<mat-card>
+    <mat-card-title>Eligibility Calculator</mat-card-title>
+    <mat-card-content>
+        <label>Monthly Income</label>
+        <label class="label1">Rs.{{monthlyIncome}}</label>
+        <mat-slider thumbLabel [displayWith]="formatLabel" 
+        max="300000" min="50000" step="20000" [(ngModel)]="monthlyIncome">
+        </mat-slider>
+        <label>Monthly Expense</label>
+        <label class="label1">Rs.{{monthlyExpense}}</label>
+        <mat-slider thumbLabel [displayWith]="formatLabel" max="200000" min="20000" step="20000" [(ngModel)]="monthlyExpense">
+        </mat-slider>
+        <label>Repayment Tenure</label>
+        <mat-select [(ngModel)]="tenure" name="tenure">
+            <mat-option *ngFor="let obj of timePeriod" [value]="obj.value">
+                {{obj.viewValue}}
+            </mat-option>
+        </mat-select>
+        <mat-slide-toggle labelPosition="before">Do you have any existing loans?</mat-slide-toggle>
+        <mat-form-field class="example-full-width">
+            <label>EMI of existing loan (optional)</label>
+            <input matInput [(ngModel)]="existingLoanEMI">
+        </mat-form-field>
+    </mat-card-content>
+</mat-card>
+
+<div class="accounting-dots">
+</div>
+
+<div class="calcImage">
+    <img src="../../assets/Group6.png" alt="Group6"/>
+</div>

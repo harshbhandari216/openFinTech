@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-slider-horizontal .mat-slider-wrapper {
+    top: 14px !important;
+    left: 0px !important;
+  }
+
+  [dir=rtl] .mat-slide-toggle-bar, .mat-slide-toggle-label-before .mat-slide-toggle-bar {
+    margin-left: 60px !important;
+}
+
+.mat-accent .mat-slider-track-fill, .mat-accent .mat-slider-thumb, .mat-accent .mat-slider-thumb-label {
+  background-color: #663399;
+}

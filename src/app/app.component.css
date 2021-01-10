@@ -1,0 +1,65 @@
+.right {
+    position: absolute;
+    display: block;
+    top: -150px;
+    left: 630px;
+}
+
+.right .circle {
+    width: 790px;
+}
+
+.left {
+zoom: 0.6;
+position: absolute;
+top: 213px;
+left: -179px;
+width: 571px;
+height: 572px;
+background: transparent url('../assets/blob-small.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.collect-video {
+zoom: 0.6;
+position: absolute;
+top: 466px;
+left: 136px;
+width: 652px;
+height: 365px;
+background: transparent url('../assets/collect_img-video.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.simple {
+zoom: 0.6;
+position: absolute;
+top: 270px;
+left: 189px;
+width: 407px;
+height: 98px;
+background: transparent url('../assets/We_make_it_Super_Sim.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.accounting-dots{
+zoom: 0.6;
+position: absolute;
+top: 796px;
+left: 462px;
+width: 430px;
+height: 70px;
+opacity: 0.5;
+background: transparent url('../assets/accounting_dots.png') 0% 0% no-repeat padding-box;
+}
+.dots-right {
+    position: absolute;
+    z-index: -10;
+    zoom: 0.6;
+    top: 1040px;
+    left: 1700px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('../assets/accounting_dots.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+  }
